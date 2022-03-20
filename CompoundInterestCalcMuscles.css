@@ -1,0 +1,52 @@
+.container{ /*Container CLASS*/
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  flex-direction: column;
+  margin-top: 0;
+  font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0);
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+  #title{  /*Title ID*/
+    font-size: min(40px,5vw);
+    font-weight: bold;
+}
+
+#description{  /*description ID*/
+    font-size: min(20px,3.5vw);
+    font: weight 5px;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+#inputs{  /*input ID*/
+    background-color: rgba(0, 255, 255, 0);
+    
+}
+
+#inputTEXT{
+    font-size: min(25px,3.75vw);
+    color: rgb(0, 0, 0);
+    width: min(200px,40vw);
+    height: min(30px,5vw);
+}
+
+#button{  /*button ID*/
+    font-size: min(20px,3vw);
+    margin-left: 2vw;
+    width: min(60px,10vw);
+    height: min(30px,6vw);
+    border-radius: min(7px,1vw);
+    
+}
+
+#output{  /*output ID*/
+    font-size: min(20px,3.75vw);
+}
