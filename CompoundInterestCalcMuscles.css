@@ -1,4 +1,4 @@
-.container{ /*Container CLASS*/
+.container{ /* CLASS for the entire application */
   display: flex;
   align-items: center;
   width: 100%;
@@ -12,12 +12,12 @@
   margin-right: 2vw;
 }
 
-  #title{  /*Title ID*/
+  #title{  /* ID for the region containing the title */
     font-size: min(40px,5vw);
     font-weight: bold;
 }
 
-#description{  /*description ID*/
+#description{  /* ID for the region containing the description */
     font-size: min(20px,3.5vw);
     font: weight 5px;
     margin-top: 1vw;
@@ -26,19 +26,19 @@
     margin-right: 3vw;
 }
 
-#inputs{  /*input ID*/
+#inputs{  /* ID for the region containing the textbox and run button */
     background-color: rgba(0, 255, 255, 0);
     
 }
 
-#inputTEXT{
+#inputTEXT{         /* ID for the text being typed in the textbox */
     font-size: min(25px,3.75vw);
     color: rgb(0, 0, 0);
     width: min(200px,40vw);
     height: min(30px,5vw);
 }
 
-#button{  /*button ID*/
+#button{  /* ID for the run button */
     font-size: min(20px,3vw);
     margin-left: 2vw;
     width: min(60px,10vw);
@@ -47,6 +47,6 @@
     
 }
 
-#output{  /*output ID*/
+#output{  /* ID for the region containing the output */
     font-size: min(20px,3.75vw);
 }
